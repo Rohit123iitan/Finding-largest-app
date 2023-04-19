@@ -33,6 +33,6 @@ st.subheader('The Largest Number is :')
 if(df['NUMBER1'][0]>df['NUMBER2'][0] and df['NUMBER1'][0]>df['NUMBER3'][0]):
     st.write(df['NUMBER1'][0])
 if(df['NUMBER2'][0]>df['NUMBER1'][0] and df['NUMBER2'][0]>df['NUMBER3'][0]):
-    st.write(**:blue[df['NUMBER2'][0]]** )
+    st.markdown(**:blue[df['NUMBER2'][0]]** )
 if(df['NUMBER3'][0]>df['NUMBER2'][0] and df['NUMBER3'][0]>df['NUMBER1'][0]):
     st.write(df['NUMBER3'][0])
