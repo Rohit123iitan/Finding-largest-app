@@ -48,10 +48,6 @@ if(df['NUMBER1'][0]==df['NUMBER2'][0] and df['NUMBER1'][0]>df['NUMBER3'][0]):
 elif(df['NUMBER1'][0]==df['NUMBER3'][0] and df['NUMBER1'][0]>df['NUMBER2'][0]):
     html_str = f"""<style>p.a {{color: {font_color};font: bold {font_size}px Courier;}}</style><p class="a">{df['NUMBER1'][0]}</p>"""
     st.markdown(html_str, unsafe_allow_html=True)
-    
-elif(df['NUMBER2'][0]==df['NUMBER3'][0] and df['NUMBER1'][0]>df['NUMBER2'][0]):
-    html_str = f"""<style>p.a {{color: {font_color};font: bold {font_size}px Courier;}}</style><p class="a">{df['NUMBER1'][0]}</p>"""
-    st.markdown(html_str, unsafe_allow_html=True)
 elif(df['NUMBER2'][0]==df['NUMBER3'][0] and df['NUMBER1'][0]<df['NUMBER2'][0]):
     html_str = f"""<style>p.a {{color: {font_color};font: bold {font_size}px Courier;}}</style><p class="a">{df['NUMBER2'][0]}</p>"""
     st.markdown(html_str, unsafe_allow_html=True)
