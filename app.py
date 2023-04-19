@@ -33,6 +33,8 @@ st.subheader('The Largest Number is :')
 if(df['NUMBER1'][0]>df['NUMBER2'][0] and df['NUMBER1'][0]>df['NUMBER3'][0]):
     st.write(df['NUMBER1'][0])
 if(df['NUMBER2'][0]>df['NUMBER1'][0] and df['NUMBER2'][0]>df['NUMBER3'][0]):
-    st.markdown("**:blue[{df['NUMBER2'][0]}]**" )
+    font_size=5
+    html_str = f"""<style>p.a {{font: bold {font_size}px Courier;}}</style><p class="a">{df['NUMBER2'][0]}</p>"""
+    st.markdown(html_str, unsafe_allow_html=True)
 if(df['NUMBER3'][0]>df['NUMBER2'][0] and df['NUMBER3'][0]>df['NUMBER1'][0]):
     st.write(df['NUMBER3'][0])
