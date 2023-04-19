@@ -10,9 +10,9 @@ st.write("""
 st.header('User Input Parameters')
 
 def user_input_features():
-    Number1 = st.number_input("NUMBER 1",min_value=-20000,max_value=400000 )
-    Number2 = st.number_input("NUMBER 2",min_value=-20000,max_value=400000 )
-    Number3 = st.number_input("NUMBER 3",min_value=-20000,max_value=400000 )
+    Number1 = st.number_input("NUMBER 1")
+    Number2 = st.number_input("NUMBER 2")
+    Number3 = st.number_input("NUMBER 3")
     
 
     data = {'NUMBER1': Number1,
