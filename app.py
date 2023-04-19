@@ -27,7 +27,7 @@ df = user_input_features()
 
 st.subheader('User Input parameters')
 st.write(df.to_dict())
-st.write(df[0][0])
+st.write(df[0])
 #Preprocessing
 
 continous_features = ['NUMBER1','NUMBER2','NUMBER3']
