@@ -33,6 +33,3 @@ st.write(df.to_dict())
 continous_features = ['NUMBER1','NUMBER2','NUMBER3']
 
 st.write(df['NUMBER1'])
-
-st.subheader('Prediction Probability')
-st.write(prediction_proba)
