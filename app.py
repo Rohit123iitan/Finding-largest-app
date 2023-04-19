@@ -31,8 +31,8 @@ df = user_input_features()
 continous_features = ['NUMBER1','NUMBER2','NUMBER3']
 st.subheader('The Largest Number is :')
 if(df['NUMBER1'][0]>df['NUMBER2'][0] and df['NUMBER1'][0]>df['NUMBER3'][0]):
-    st.write(*df['NUMBER1'][0]*)
+    st.write(**df['NUMBER1'][0]**)
 if(df['NUMBER2'][0]>df['NUMBER1'][0] and df['NUMBER2'][0]>df['NUMBER3'][0]):
-    st.write(*df['NUMBER2'][0]*)
+    st.write(df['NUMBER2'][0])
 if(df['NUMBER3'][0]>df['NUMBER2'][0] and df['NUMBER3'][0]>df['NUMBER1'][0]):
-    st.write(*df['NUMBER3'][0]*)
+    st.write(df['NUMBER3'][0])
