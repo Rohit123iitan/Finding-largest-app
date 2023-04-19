@@ -27,14 +27,14 @@ df = user_input_features()
 
 st.subheader('User Input parameters')
 st.write(df.to_dict())
-
+st.write(df['NUMBER1'][0])
 #Preprocessing
 
 continous_features = ['NUMBER1','NUMBER2','NUMBER3']
 
-if(df['NUMBER1']>df['NUMBER2'] and df['NUMBER1']>df['NUMBER3']):
-    st.write(df['NUMBER1'])
-if(df['NUMBER2']>df['NUMBER1'] and df['NUMBER2']>df['NUMBER3']):
-    st.write(df['NUMBER2'])
-if(df['NUMBER3']>df['NUMBER2'] and df['NUMBER3']>df['NUMBER1']):
-    st.write(df['NUMBER3'])
+# if(df['NUMBER1']>df['NUMBER2'] and df['NUMBER1']>df['NUMBER3']):
+#     st.write(df['NUMBER1'])
+# if(df['NUMBER2']>df['NUMBER1'] and df['NUMBER2']>df['NUMBER3']):
+#     st.write(df['NUMBER2'])
+# if(df['NUMBER3']>df['NUMBER2'] and df['NUMBER3']>df['NUMBER1']):
+#     st.write(df['NUMBER3'])
